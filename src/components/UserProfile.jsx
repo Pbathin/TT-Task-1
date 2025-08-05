@@ -16,7 +16,8 @@ const UserProfile = ({ data }) => {
       <Avatar
         src={data.avatar}
         alt="User Avatar"
-        sx={{ width: "200px", height: "auto", margin: "10px auto" }}
+        sx={{ width: "200px", height: "auto", margin: "10px auto" , 
+        paddingBottom:"10px"}}
       />
       <Typography variant="h5" sx={{color:"#fff", margin:"5px auto"}}>{data.name}</Typography>
       <Typography variant="body1" sx={{color:"#fff" ,  margin:"5px auto"}}>{data.email}</Typography>
