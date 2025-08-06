@@ -13,6 +13,7 @@ const UserProfile = ({ data }) => {
         bgcolor:"#8bb6f7ff",
       }}
     >
+      <Typography variant="h5" sx={{color:"#919392ff"}}>User Profile</Typography>
       <Avatar
         src={data.avatar}
         alt="User Avatar"
