@@ -9,7 +9,7 @@ const UserProfile = ({ data }) => {
         width: "250px",
         padding: "20px",
         textAlign: "center",
-        margin: "20px auto",
+        margin: "40px auto",
         bgcolor:"#8bb6f7ff",
       }}
     >
